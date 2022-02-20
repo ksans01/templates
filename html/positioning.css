@@ -1,0 +1,41 @@
+/* From outside to inside, box model format:
+    1. Margin
+    2. Border
+    3. Padding
+    4. Content
+*/
+body {
+    background-color: rgb(65, 225, 190);
+}
+.nav-bar {
+    position: fixed;
+    width: 100%;
+    margin: 10px;
+    background-color: rgb(55,44,22,.4);
+}
+
+.menu {
+    position: relative;
+    left: 150px;
+}
+
+.about {
+    position: relative;
+    left: 315px;
+}
+
+.blog {
+    display: inline-block;
+    margin: 20px;
+    line-height: 2;
+}
+
+.title {
+    color:cornsilk;
+    background-color:darkcyan
+}
+
+.date {
+    color: rgb(55,44,22,.9);
+    background-color: rgba(22, 55, 35, 0.4);
+}

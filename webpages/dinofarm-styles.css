@@ -1,0 +1,39 @@
+body {
+    background-color: lightblue
+}
+
+
+
+.farmItems{
+    width: 300px;
+    border: 5px solid black;
+    padding: 1px;
+    margin: 10px
+}
+
+#itemList {
+    line-height: 2;
+    background-color: brown;
+    color: rgb(243, 217, 217)
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: brown;
+    color: white;
+    padding: 10;
+}
+
+td {
+    padding: 25;
+    background-color: white;
+}
+
+.aboutUs {
+    font-family: 'Comforter Brush';
+    font-size: 30
+}
